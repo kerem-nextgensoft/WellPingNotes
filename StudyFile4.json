@@ -1,0 +1,113 @@
+{
+   "studyInfo":{
+      "server":{
+         
+      },
+      "weekStartsOn":1,
+      "pingsFrequency":[
+         {
+            "earliestPingNotificationTime":"09:00:00",
+            "latestPingNotificationTime":"10:00:00",
+            "expireAfterTime":"12:00:00"
+         }
+      ],
+      "streamsOrder":[
+         "stream1"
+      ],
+      "streamsNotReplacedByFollowupStream":[
+         
+      ],
+      "notificationContent":{
+         "default":{
+            "title":"test",
+            "body":"test"
+         }
+      },
+      "alwaysEnableNextButton":false,
+      "id":"test",
+      "studyFileURL":"http://localhost:3000/study-file-editor",
+      "consentFormUrl":"http://localhost:3000/study-file-editor",
+      "startDate":"2020-03-10T08:00:00.000Z",
+      "endDate":"2024-03-10T08:00:00.000Z",
+      "studyGroup":[
+         {
+            "userId":"1",
+            "groupId":"Group A"
+         },
+         {
+            "userId":"2",
+            "groupId":"Group A"
+         },
+         {
+            "userId":"3",
+            "groupId":"Group A"
+         },
+         {
+            "userId":"4",
+            "groupId":"Group B"
+         },
+         {
+            "userId":"5",
+            "groupId":"Group B"
+         },
+         {
+            "userId":"6",
+            "groupId":"Group A"
+         },
+         {
+            "userId":"7",
+            "groupId":"Group A"
+         },
+         {
+            "userId":"8",
+            "groupId":"Group C"
+         },
+         {
+            "userId":"9",
+            "groupId":"Group C"
+         },
+         {
+            "userId":"10",
+            "groupId":"Group C"
+         },
+         {
+            "userId":"11",
+            "groupId":"Group C"
+         },
+         {
+            "userId":"12",
+            "groupId":"Group B"
+         }
+      ],
+      "streamInCaseOfError":"stream1",
+      "streamsStartingQuestionIds":{
+         "stream1":"q1"
+      }
+   },
+   "streams":{
+      "stream1":{
+         "q1":{
+            "id":"q1",
+            "type":"YesNo",
+            "question":"q1",
+            "description":"q1",
+            "next":null,
+            "branchStartId":{
+               
+            }
+         }
+      }
+   },
+   "extraData":{
+      
+   },
+   "streamGroupMapping":[
+      {
+         "assignedGroup":[
+            "Group A",
+            "Group B"
+         ],
+         "stream":"stream1"
+      }
+   ]
+}
